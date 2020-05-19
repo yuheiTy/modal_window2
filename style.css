@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.container{
+    /*widows: 60%;*/
+    max-width: 700px;
+    overflow: auto;
+    margin: 100px auto;
+    display: flex;
+}
+
+.full-img{
+    /* width: 580px;
+    height: 580px; */
+    width: 90%;
+    padding: 10px;
+}
+
+.full-img img{
+    width: 100%;
+    height: 100%;
+    animation: ani .5s linear 1;
+}
+@keyframes ani{
+    0%{
+        opacity: .2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
